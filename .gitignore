@@ -1,0 +1,13 @@
+node_modules/
+.output/
+.wxt/
+dist/
+*.zip
+*.pem
+.env*
+!.env.example
+__pycache__/
+.venv/
+# downloaded at build time
+apps/extension/public/mediapipe/
+apps/extension/public/models/

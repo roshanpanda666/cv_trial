@@ -1,0 +1,13 @@
+[project]
+name = "backend"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "gradio-client",
+    "httpx",
+    "pillow",
+    "pydantic-settings",
+    "python-multipart",
+    "uvicorn[standard]",
+]
